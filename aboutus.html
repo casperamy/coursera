@@ -14,15 +14,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm bg fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class = "navbar-brand" href="./index.html">Ristorante con Fusion</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="./aboutus.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
-            </ul>
+            <button class="navbar-toggler" type = "button" data-toggle="collapse" data-target = "#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class = "navbar-brand mr-auto icon" href="./index.html">Ristorante con Fusion</a>
+            <div class="collapse navbar-collapse offset-1" id="Navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <header class="jumbotron">
@@ -44,6 +49,10 @@
                <h3>About Us</h3>
                <hr>
             </div>
+                        <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
         </div>
 
         <div class = "row row-content align-items-center">
@@ -115,9 +124,9 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>

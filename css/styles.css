@@ -7,7 +7,7 @@
 {
 	background-color: #9575CD;
 	color: floralwhite;
-	padding-top: 100px;
+	padding-top: 120px;
 }
 
 .footer
@@ -32,4 +32,21 @@
 .bg
 {
 	background-color: #5133A5;
+}
+
+.icon
+{
+	padding-right: 10px;
+}
+
+.navbar
+{
+	background-color: #5133A5;
+	padding : 15px 0 15px 15px;
+	font-size: 14px;
+}
+
+.nav-row
+{
+	padding-left: 30px;
 }
