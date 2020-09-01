@@ -1,31 +1,35 @@
-
-.footer
-{
-	background-color: #152d4d;
-	padding-top: 20px;
-	padding-bottom: 7px;
-	color : white;
-}
-
-.row-content
-{
-	border-bottom: 1px ridge;
-	min-height: 300px;
-}
-
-.jumbotron
-{
-	padding: 70px 30px 70px 30px;
-	background-color: #152d4d;
-	color : white;
-}
-
 .info
 {
 	padding-left: 20px;
 }
 
+.jumbotron
+{
+	background-color: #9575CD;
+	color: floralwhite;
+	padding-top: 100px;
+}
+
 .footer
 {
-	padding-top: 50px;
+	background-color: #D1C4E9;
+	padding-top: 30px;
+}
+
+.row-content
+{
+	border-bottom: 1px ridge;
+	min-height: 400px;
+	padding : 50px 0px 50px 0px;
+}
+
+.abt-us
+{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.bg
+{
+	background-color: #5133A5;
 }
