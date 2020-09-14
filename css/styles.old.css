@@ -1,0 +1,131 @@
+.info
+{
+	padding-left: 20px;
+}
+
+.jumbotron
+{
+	background-color: #9575CD;
+	color: floralwhite;
+	padding-top: 120px;
+}
+
+.footer
+{
+	background-color: #D1C4E9;
+	padding-top: 30px;
+}
+
+.row-content
+{
+	border-bottom: 1px ridge;
+	min-height: 400px;
+	padding : 50px 0px 50px 0px;
+}
+
+.abt-us
+{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.bg
+{
+	background-color: #5133A5;
+}
+
+.icon
+{
+	padding-right: 10px;
+}
+
+.navbar
+{
+	background-color: #5133A5;
+	padding : 15px 0 15px 15px;
+	font-size: 14px;
+}
+
+.nav-row
+{
+	padding-left: 30px;
+}
+
+.padding-top
+{
+	padding-top: 10px;
+}
+
+.top
+{
+	padding-top: 15px;
+}
+
+.padding-right
+{
+	padding-right: 30px;
+}
+
+.font
+{
+	font-size: 28px;
+	color: white;
+}
+
+.yellow
+{
+	background-color: #e3b302;
+}
+
+.padding
+{
+	padding: 0 5px 0 5px;
+}
+
+.tab-content
+{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding:30px 30px 30px 30px;
+}
+
+.padding-left
+{
+	padding-left: 30px;
+}
+
+.carousel
+{
+	background-color: #512DA8;
+}
+
+.carousel-item
+{
+	height: 300px;
+}
+
+.carousel-item img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 300px;
+}
+
+.green
+{
+	background-color: #008000;
+}
+
+.red
+{
+	background-color: red;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
